@@ -135,4 +135,21 @@
  C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  src/config/app.config.h src/services/i2c.service.h \
  src/services/soil-moisture.service.h \
- src/calculators/soil-moisture.calculator.h
+ src/calculators/soil-moisture.calculator.h \
+ src/registries/sensor.registry.h \
+ src/contracts/sensors/sensor.interface.h \
+ src/contracts/sensors/sensor.readings.h \
+ src/contracts/sensors/sensor.result.h \
+ src/sensors/soil-moisture/soil-moisture.sensor.h \
+ src/sensors/bme280/bme280.sensor.h \
+ .pio/libdeps/esp32doit-devkit-v1/Adafruit\ BME280\ Library/Adafruit_BME280.h \
+ .pio/libdeps/esp32doit-devkit-v1/Adafruit\ BusIO/Adafruit_I2CDevice.h \
+ C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
+ C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ .pio/libdeps/esp32doit-devkit-v1/Adafruit\ BusIO/Adafruit_SPIDevice.h \
+ C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
+ C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ .pio/libdeps/esp32doit-devkit-v1/Adafruit\ Unified\ Sensor/Adafruit_Sensor.h \
+ C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ src/sensors/bh1750/bh1750.sensor.h \
+ .pio/libdeps/esp32doit-devkit-v1/BH1750/src/BH1750.h
