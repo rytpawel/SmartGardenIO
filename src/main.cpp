@@ -14,6 +14,7 @@
 #include "services/wifi/wifi.service.h"
 #include "services/http/http.service.h"
 #include "services/mdns/mdns.service.h"
+#include "services/ota/ota.service.h"
 
 namespace SmartGardenIO {
     // Registration
@@ -39,6 +40,9 @@ namespace SmartGardenIO {
 
     // HTTP
     Services::HttpService httpService(sensorSnapshot);
+
+    // OTA
+    Services::OtaService otaService;
 
     void serialPrint(const Sensors::SensorSnapshot& snapshot)
     {
@@ -78,6 +82,7 @@ namespace SmartGardenIO {
         if (wifiConnected) {
             mdnsService.begin();
             httpService.begin();
+            otaService.begin();
         }
 
         sensorRegistry.registerSensor(&soilMoistureSensor);
@@ -97,6 +102,7 @@ namespace SmartGardenIO {
 
     void loop() {
         httpService.handleClient();
+        otaService.handle();
 
         const unsigned long now = millis();
 

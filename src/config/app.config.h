@@ -14,4 +14,5 @@ namespace SmartGardenIO::Config {
     constexpr const char* WifiSsid = WIFI_SSID;
     constexpr const char* WifiPassword = WIFI_PASSWORD;
     constexpr const char* DeviceHostname = DEVICE_HOSTNAME;
-}
+    constexpr const char* OTAHostname = OTA_HOSTNAME;
+};

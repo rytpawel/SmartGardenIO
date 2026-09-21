@@ -181,7 +181,7 @@ namespace SmartGardenIO::Services
     <div class="container">
 
         <header>
-            <h1>Smart Garden</h1>
+            <h1>Smart Garden 1.00</h1>
             <div class="status" id="status">
                 Łączenie...
             </div>
