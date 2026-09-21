@@ -39,7 +39,7 @@ namespace SmartGardenIO::Sensors
 
         readings.results[2] = {
             "Ciśnienie",
-            "air_presure",
+            "air_pressure",
             0,
             pressure,
             "hPa"

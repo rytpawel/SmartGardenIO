@@ -1,7 +1,7 @@
 #include "soil-moisture.sensor.h"
 
 #include "config/app.config.h"
-#include "services/soil-moisture.service.h"
+#include "services/soil-moisture/soil-moisture.service.h"
 #include "calculators/soil-moisture.calculator.h"
 #include "contracts/sensors/sensor.readings.h"
 

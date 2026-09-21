@@ -10,6 +10,9 @@
             "includePath": [
                 "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/include",
                 "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/src",
+                "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
+                "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
+                "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/.pio/libdeps/esp32doit-devkit-v1/BH1750/src",
                 "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/.pio/libdeps/esp32doit-devkit-v1/Adafruit BME280 Library",
                 "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/.pio/libdeps/esp32doit-devkit-v1/Adafruit Unified Sensor",
@@ -222,7 +225,6 @@
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
-                "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
@@ -239,8 +241,6 @@
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
-                "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 ""
@@ -250,6 +250,9 @@
                 "path": [
                     "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/include",
                     "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/src",
+                    "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
+                    "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
+                    "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/.pio/libdeps/esp32doit-devkit-v1/BH1750/src",
                     "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/.pio/libdeps/esp32doit-devkit-v1/Adafruit BME280 Library",
                     "c:/Users/pawel.ryt/Documents/PlatformIO/Projects/SmartGardenIO/.pio/libdeps/esp32doit-devkit-v1/Adafruit Unified Sensor",
@@ -462,7 +465,6 @@
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
-                    "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
@@ -479,14 +481,14 @@
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
-                    "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                    "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "C:/Users/pawel.ryt/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     ""
                 ]
             },
             "defines": [
+                "WIFI_SSID=\"K12_parter\"",
+                "WIFI_PASSWORD=\"Otaczarnia1\"",
                 "PLATFORMIO=60200",
                 "ARDUINO_ESP32_DEV",
                 "HAVE_CONFIG_H",

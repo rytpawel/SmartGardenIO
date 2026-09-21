@@ -11,4 +11,7 @@ namespace SmartGardenIO::Config {
     constexpr int SoilMoistureDryValue = 2550;
     constexpr int SoilMoistureWetValue = 1060;
 
+    constexpr const char* WifiSsid = WIFI_SSID;
+    constexpr const char* WifiPassword = WIFI_PASSWORD;
+    constexpr const char* DeviceHostname = DEVICE_HOSTNAME;
 }
